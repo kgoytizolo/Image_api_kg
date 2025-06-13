@@ -1,11 +1,9 @@
 # Image_api_kg
 An :NET Core API Solution for image uploading / downloading
 
-# Table of Contents
-
-1. [Project Overview]
+# Project Overview
     - Brief introduction to the API and its purpose
-2. [Technology Stack](#technology-stack)
+# Technology Stack
     - Languages, frameworks, and libraries used
 3. [Software Architecture](#software-architecture)
     - Architectural patterns and main layers
