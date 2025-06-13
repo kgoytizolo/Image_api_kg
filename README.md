@@ -3,7 +3,7 @@ An :NET Core API Solution for image uploading / downloading
 
 # Table of Contents
 
-1. [Project Overview](#project-overview)
+1. [Project Overview]
     - Brief introduction to the API and its purpose
 2. [Technology Stack](#technology-stack)
     - Languages, frameworks, and libraries used
