@@ -93,20 +93,31 @@ Make sure that you have the latest SQLite3 version in order to use the attached 
 
 To clone **Image_api_kg** locally, just run the following git command:
 ```bash
-git clone https://github.com/kgoytizolo/Image_api_kg
+git clone https://github.com/kgoytizolo/Image_api_kg.git
 ```
 
 # Running the API Locally
 
 1. Quickstart Using Kestrel Web Server and HTTPS:
 
-2. Using Docker:
+- Just execute F5 for Debugging or CTRL+F5 to run the application locally. Make sure that it points to > https and ImageWebApi is setted as the Startup Project (it currently does).
+
+- This application points to Development by default. Corresponding SQLite database is stored in the same path as the Web API project and already has Images and Users tables created.
+
+- It should redirect to the following url:
+
+**https://localhost:7136/swagger/index.html**
+
+3. Using Docker:
 
 # API Documentation
-Swagger/OpenAPI UI
+
+This application has implemented Swagger in order to keep an updated documentation of its API endpoints so they can be tested locally and referenced by any client who would use any of this services:
+
+- Go to the following url (launched by default once the project is running locally) to look for documentation and local testing:
+
+https://localhost:7136/swagger/index.html
 
 # Database & Migrations
 Database technology and how to apply migrations
 
-# Project Structure
-Description of key folders and files
